@@ -1,0 +1,134 @@
+<!doctype html><html lang="es-MX"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow">
+<title>Tu Suite · Tentación-es</title><meta name="theme-color" content="#170409">
+<link rel="icon" type="image/webp" href="../img/tx-logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#170409;--wine:#7A1428;--wine2:#A51D36;--gold:#C9A15A;--gold2:#E9C98B;--cream:#F5EBDD;--mist:#BFA9A2;--red:#D8263C;--ok:#1E9E57}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--cream);font-family:'Jost',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body{background:radial-gradient(120% 60% at 50% 0%,#4a0b18 0%,#1f060c 45%,var(--bg) 100%) fixed}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%;height:auto}
+.wrap{max-width:640px;margin:0 auto;padding:22px 18px 60px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.top img{width:130px;height:auto}
+.top a{font-size:12.5px;color:var(--mist);border:1px solid rgba(201,161,90,.3);padding:7px 12px;border-radius:99px}
+.hi{margin:26px 0 6px;font:700 clamp(34px,9vw,46px)/1 'Cormorant Garamond',serif}
+.hi em{color:var(--gold2)}
+.sub{color:#E2CFC4;font-size:15.5px;line-height:1.55;margin:0}
+.play{margin-top:22px;border-radius:26px;overflow:hidden;border:1px solid rgba(201,161,90,.5);background:linear-gradient(160deg,rgba(201,161,90,.14),rgba(255,255,255,.03));box-shadow:0 24px 50px rgba(0,0,0,.45)}
+.play img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.play .bd{padding:18px}
+.play h2{margin:0;font:700 30px/1.05 'Cormorant Garamond',serif}
+.play p{margin:6px 0 14px;color:#E2CFC4;font-size:14.5px;line-height:1.5}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:54px;border:0;border-radius:14px;cursor:pointer;font:700 15px 'Jost';letter-spacing:.06em;text-transform:uppercase}
+.btn-gold{background:linear-gradient(180deg,#F1D79E,#C9A15A);color:#2A0710;box-shadow:0 10px 26px rgba(201,161,90,.3)}
+.btn-ok{background:linear-gradient(180deg,#25B565,#13773F);color:#fff}
+.h{display:flex;align-items:center;gap:10px;margin:34px 0 12px;font:600 12px 'Jost';letter-spacing:.2em;color:var(--gold2);text-transform:uppercase}
+.h::after{content:"";flex:1;height:1px;background:rgba(201,161,90,.3)}
+.note{margin:-4px 0 12px;font-size:13px;color:var(--mist)}
+.list{display:grid;gap:10px}
+.it{display:flex;gap:8px;padding:8px;border-radius:20px;border:1px solid rgba(201,161,90,.35);background:rgba(255,255,255,.035)}
+.it .ph{flex:0 0 34%;border-radius:14px;overflow:hidden;position:relative;background:#2A0911;min-height:118px}
+.it .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.it .bd{flex:1;min-width:0;background:var(--cream);color:#24090F;border-radius:14px;padding:12px 13px;display:flex;flex-direction:column;gap:4px}
+.it .k{font:600 10px 'Jost';letter-spacing:.14em;color:var(--wine2);text-transform:uppercase}
+.it h3{margin:0;font:700 22px/1 'Cormorant Garamond',serif}
+.it h3 span{color:var(--red)}
+.it p{margin:0;font-size:12.8px;line-height:1.4;color:#5a4247}
+.acts{display:flex;gap:6px;margin-top:auto;padding-top:8px}
+.acts a,.acts button{flex:1;display:flex;align-items:center;justify-content:center;min-height:38px;border-radius:10px;font:600 12.5px 'Jost';cursor:pointer;border:0}
+.a1{background:var(--wine);color:#fff}
+.a2{background:#fff;color:var(--wine);border:1.5px solid rgba(122,20,40,.35)!important}
+.tag{display:inline-block;align-self:flex-start;font:600 10.5px 'Jost';color:#13773F;background:#E9F6EE;border-radius:6px;padding:3px 7px}
+.lock .ph img{filter:grayscale(.6) brightness(.55)}
+.lock .ph::after{content:"🔒";position:absolute;inset:0;display:grid;place-items:center;font-size:30px}
+.lock .bd{background:#EFE3D5}
+.price{font:700 15px 'Jost';color:#24090F}
+.price s{color:#9C7F78;font-weight:500;margin-right:4px}
+.pack{margin-top:12px;border-radius:20px;border:2px solid var(--gold);background:linear-gradient(160deg,#4a0b18,#2a0710);padding:16px}
+.pack b{font:700 24px 'Cormorant Garamond',serif;color:var(--gold2)}
+.pack p{margin:4px 0 12px;font-size:13.5px;color:#E2CFC4}
+.card{margin-top:26px;border-radius:24px;border:1px solid rgba(201,161,90,.4);background:rgba(255,255,255,.04);padding:22px;text-align:center}
+.card h2{margin:0 0 8px;font:700 30px/1.05 'Cormorant Garamond',serif}
+.card p{color:#E2CFC4;font-size:15px;line-height:1.55;margin:0 0 16px}
+.help{margin-top:34px;text-align:center;font-size:13.5px;color:var(--mist)}
+.wa{display:inline-flex;align-items:center;gap:8px;margin-top:10px;background:#25D366;color:#fff;font:700 14px 'Jost';padding:12px 18px;border-radius:12px}
+.foot{margin-top:30px;text-align:center;font-size:11.5px;color:#8f7871}
+
+.lock .acts a{background:var(--wine);color:#fff}
+.lock .hint{font-size:12px;color:#7a5a60;margin-top:auto;padding-top:6px}
+.gate{margin-top:26px}
+.pack .btn{margin-top:4px}
+.warn{margin-top:18px;border:1px dashed rgba(201,161,90,.5);border-radius:14px;padding:12px 14px;font-size:13px;color:#E2CFC4}
+</style></head><body>
+<div class="wrap" id="app">
+  <div class="top"><img src="../img/tx-logo.webp" alt="Tentación-es" width="600" height="488"></div>
+  <h1 class="hi">Hola</h1>
+  <p class="sub" id="sub"></p>
+  <div id="out"></div>
+  <div class="help">¿Problemas para entrar o descargar?<br><a class="wa" href="https://wa.me/526623185978?text=Hola%2C%20necesito%20ayuda%20con%20mi%20Suite%20Tentaci%C3%B3n-es" target="_blank" rel="noopener">💬 Escríbenos por WhatsApp</a></div>
+  <div class="foot">© 2026 Tentación-es · Contenido exclusivo para mayores de 18 años</div>
+</div>
+<script>
+(function(){
+var D={"keys": {"d3cac390b6eea11ee8298eac": "main", "31372e5cf66bb37da07d40cd": "pack", "b1ededbc1def6cea684277e3": "mis", "b85835991370f476d02d0d62": "pos"}, "buy": {"pack": "https://tentacion-es.impultienda.ar/checkout?p=23525a28-b825-4dc1-a694-4c434f4f9cd7", "mis": "https://tentacion-es.impultienda.ar/checkout?p=ca19058a-3422-4bdb-a8cf-2abb721e3f39", "pos": "https://tentacion-es.impultienda.ar/checkout?p=9d4a1125-9e81-488e-afd6-17c11ce73200"}, "imprimible": [{"img": "tx-card_p09_00", "k": "Edición imprimible · 40 págs.", "t": "Tentación", "s": "-es", "d": "Las 138 cartas de Conexión-es y Acción-es, listas para imprimir a doble cara y recortar.", "f": "tx-tentaciones-imprimible", "n": "Tentacion-es_Edicion_Imprimible"}], "exp": [{"img": "tx-exp1s", "k": "Expansión · 36 cartas", "t": "Confesión", "s": "-es", "d": "Hay cosas que nunca se preguntaron.", "f": "tx-confesion-es", "n": "Confesion-es_Imprimible"}, {"img": "tx-exp2s", "k": "Expansión · 36 cartas", "t": "Provocación", "s": "-es", "d": "La anticipación también se juega.", "f": "tx-provocacion-es", "n": "Provocacion-es_Imprimible"}, {"img": "tx-exp3s", "k": "Expansión · 36 cartas", "t": "Decisión", "s": "-es", "d": "Dos opciones. Una decisión.", "f": "tx-decision-es", "n": "Decision-es_Imprimible"}, {"img": "tx-exp4s", "k": "Mazo oculto · +18", "t": "Al límite", "s": "-es", "d": "Lo que no se dice en voz alta… aquí se dice.", "f": "tx-al-limite-es", "n": "Al-Limite-es_Mazo_Oculto"}], "bonos": [{"img": "tx-bono1s", "k": "Bono 01 · Guía PDF", "t": "Sensación", "s": "-es", "d": "El ritual para preparar el ambiente.", "f": "tx-sensacion-es", "n": "Sensacion-es"}, {"img": "tx-bono2s", "k": "Bono 02 · Guía PDF", "t": "Reconexión", "s": "-es", "d": "Vuelvan a encontrarse.", "f": "tx-reconexion-es", "n": "Reconexion-es"}, {"img": "tx-bono3s", "k": "Bono 03 · Casos PDF", "t": "Investigación", "s": "-es", "d": "4 misterios para resolver en pareja.", "f": "tx-investigacion-es", "n": "Investigacion-es"}, {"img": "tx-bono4s", "k": "Bono 04 · Reto 2×52", "t": "Plan", "s": "-es", "d": "104 ideas para tener más momentos de dos. También está interactivo dentro del juego.", "f": "tx-plan-es", "n": "Plan-es"}], "comp": [{"id": "mis", "img": "tx-up2_mis", "k": "", "t": "Misión", "s": "-es", "d": "30 días. 30 misiones. Una pareja menos rutinaria.", "f": "tx-mision-es", "n": "Mision-es", "price": "8.50"}, {"id": "pos", "img": "tx-up2_pos", "k": "", "t": "Posición", "s": "-es", "d": "30 posiciones poco comunes, con placer para los dos.", "f": "tx-posicion-es", "n": "Posicion-es", "price": "7.07"}, {"id": "fav", "img": "tx-up2_fav", "k": "", "t": "Favor", "s": "-es", "d": "40 vales para pedir lo que cuesta pedir, más 12 en blanco.", "f": "tx-favor-es", "n": "Favor-es_Vales", "price": null}, {"id": "exc", "img": "tx-up2_exc", "k": "", "t": "Excepción", "s": "-es", "d": "36 comodines que cambian turnos, mazos y reglas.", "f": "tx-excepcion-es", "n": "Excepcion-es_Imprimible", "price": null}]};
+var STORE_KEY='tx_suite_keys';
+function ok(k){return /^[0-9a-f]{24}$/.test(k)&&D.keys[k]}
+var have=[];try{have=JSON.parse(localStorage.getItem(STORE_KEY)||'[]')}catch(e){}
+var q=(new URLSearchParams(location.search).get('k')||'').toLowerCase().split(/[\s,+]+/).filter(Boolean);
+have=have.concat(q).filter(ok).filter(function(k,i,a){return a.indexOf(k)===i});
+try{localStorage.setItem(STORE_KEY,JSON.stringify(have))}catch(e){}
+if(q.length&&history.replaceState)history.replaceState(null,'',location.pathname);
+var own={main:false,pack:false,mis:false,pos:false};
+have.forEach(function(k){own[D.keys[k]]=true});
+var fav=own.pack,exc=own.pack,mis=own.mis||own.pack,pos=own.pos||own.pack;
+var unl={mis:mis,pos:pos,fav:fav,exc:exc};
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function pdf(f){return '../'+f+'.pdf'}
+function title(x){return esc(x.t)+'<span>'+esc(x.s)+'</span>'}
+function card(x,kicker){
+  return '<div class="it"><div class="ph"><img src="../img/'+x.img+'.webp" alt="" loading="lazy"></div><div class="bd">'+kicker+'<h3>'+title(x)+'</h3><p>'+esc(x.d)+'</p><div class="acts"><a class="a1" href="'+pdf(x.f)+'" target="_blank" rel="noopener">Ver</a><button class="a2" data-dl="'+pdf(x.f)+'" data-name="'+x.n+'.pdf">Descargar</button></div></div></div>'
+}
+function lockCard(x,label,href,hint){
+  return '<div class="it lock"><div class="ph"><img src="../img/'+x.img+'.webp" alt="" loading="lazy"></div><div class="bd"><h3>'+title(x)+'</h3><p>'+esc(x.d)+'</p>'+(hint?'<div class="hint">'+hint+'</div>':'')+'<div class="acts"><a href="'+href+'" target="_top">'+label+'</a></div></div></div>'
+}
+var h='';
+if(!have.length){
+  document.getElementById('sub').textContent='Para ver tu Suite, abre el enlace que te llegó al correo con el que hiciste tu compra.';
+  h='<div class="card gate"><h2>Abre tu enlace de compra</h2><p>Busca en tu correo (revisa también Spam o Promociones) el mensaje con tus productos y toca el botón de acceso. Si no lo encuentras, escríbenos por WhatsApp.</p></div>';
+}else{
+  document.getElementById('sub').textContent='Esta es su Suite Tentación-es. Todo lo que compraron vive aquí: juéguenlo en línea o descárguenlo para imprimir cuando quieran.';
+  if(own.main){
+    h+='<div class="play"><img src="../img/tx-hero.webp" alt="Tentación-es Digital" width="1200" height="1200"><div class="bd"><h2>Tentación-es Digital</h2><p>El juego completo con Conexión-es, Acción-es y las 4 expansiones, incluido el mazo oculto. Desde el celular, tablet o computadora.</p><a class="btn btn-gold" href="../juego.html">▶ Jugar ahora</a></div></div>';
+    h+='<div class="h">El juego para imprimir</div><div class="list">'+D.imprimible.map(function(x){return card(x,'<span class="k">'+esc(x.k)+'</span>')}).join('')+'</div>';
+    h+='<div class="h">4 Expansiones</div><p class="note">Ya están dentro del juego digital. Aquí tienen sus versiones para imprimir.</p><div class="list">'+D.exp.map(function(x){return card(x,'<span class="k">'+esc(x.k)+'</span>')}).join('')+'</div>';
+    h+='<div class="h">4 Bonos</div><div class="list">'+D.bonos.map(function(x){return card(x,'<span class="k">'+esc(x.k)+'</span>')}).join('')+'</div>';
+  }else{
+    h+='<div class="card gate"><h2>Falta tu compra principal</h2><p>El juego, las expansiones y los bonos se abren con el enlace del correo de tu compra principal de Tentación-es. Ábrelo desde este mismo dispositivo y aparecerán aquí.</p></div>';
+  }
+  h+='<div class="h">Complementos</div>';
+  if(!own.pack){
+    h+='<div class="pack"><b>Pack Experiencia Completa</b><p>Los 4 complementos juntos: Misión-es, Posición-es, Favor-es y Excepción-es. Precio especial.</p><div class="price" style="color:#fff;margin-bottom:10px"><s style="color:#c9a98f">US$ 24.49</s> US$ 14.19</div><a class="btn btn-gold" href="'+D.buy.pack+'" target="_top">Agregar el Pack</a></div><div style="height:12px"></div>';
+  }
+  h+='<div class="list">'+D.comp.map(function(x){
+    if(unl[x.id]) return card(x,'<span class="tag">✓ Tuyo</span>');
+    if(x.price) return lockCard(x,'Agregar · US$ '+x.price,D.buy[x.id],'');
+    return lockCard(x,'Desbloquear con el Pack',D.buy.pack,'Solo viene en el Pack');
+  }).join('')+'</div>';
+}
+document.getElementById('out').innerHTML=h;
+document.querySelectorAll('[data-dl]').forEach(function(b){
+  b.addEventListener('click',function(){
+    var url=b.getAttribute('data-dl'),name=b.getAttribute('data-name'),t=b.textContent;
+    b.textContent='Descargando…';b.disabled=true;
+    fetch(url).then(function(r){if(!r.ok)throw 0;return r.blob()}).then(function(bl){
+      var a=document.createElement('a');a.href=URL.createObjectURL(bl);a.download=name;document.body.appendChild(a);a.click();
+      setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},1500);b.textContent='✓ Listo';
+    }).catch(function(){window.open(url,'_blank');b.textContent=t}).finally(function(){b.disabled=false;setTimeout(function(){b.textContent=t},2500)});
+  });
+});
+})();
+</script></body></html>
